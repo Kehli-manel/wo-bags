@@ -1,0 +1,30 @@
+.card>img{
+    width: 200px;
+    height: 250px;
+}
+.card-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    gap: 10px;
+    margin-top: 30px;
+}
+.card{
+    border: solid grey 0.5px;
+    padding: 20px;
+    border-radius: 15px;
+}
+.card>button{
+    margin-top: 10px;
+    background-color: #00668c;
+    padding: 10px 20px;
+    color: #ffff;
+    font-size: 15px;
+    border-radius: 15px;
+    border: none;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+}

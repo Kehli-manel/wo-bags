@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+* {
+    margin: 0;
+    font-family: 'Nunito', sans-serif;
+}
+
+body {
+    background-image: url(https://img.freepik.com/vecteurs-libre/fond-ciel-pastel-aquarelle-peint-main_23-2148902769.jpg?w=740&t=st=1707840822~exp=1707841422~hmac=da86ac6dd1bbe3ebbdb7ca54803ba802222c6eb1b7ac6b91d385a734482bc82b);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+

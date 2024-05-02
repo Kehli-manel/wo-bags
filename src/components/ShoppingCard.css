@@ -1,0 +1,83 @@
+@import "./NavBar.css";
+.item-card{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+    background-color: #ffccc4b0;
+    border: 0.3px solid #cfcfcf;
+    color: #404040;
+    margin: 10px;
+    font-size: 14px;
+}
+.item-info{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.item-info>img{
+    width: 50px;
+}
+.basket-btn{
+    background-color: transparent;
+    border: none;
+}
+
+.basket{
+    width: 50px;
+    height: 30px;
+    color: grey;
+}
+
+.shopping-card{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    right: -450px;
+    top: 0px;
+    width: 30%;
+    height: 100%;
+    background-color: #f5f5f5ee;
+    padding: 30px 0px;
+}
+.showme.show-cart .shopping-card{
+    right: 0;
+}
+.shopping-card>h2{
+   text-align: center;
+   margin-bottom: 20px;
+}
+.items-list{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    overflow: auto;
+}
+.items-list::-webkit-scrollbar{
+    width: 0;
+}
+.card-btns{
+    display: flex;
+    justify-content: space-around;
+}
+.check-btn, .close-card-btn{
+    margin-bottom: 50px;
+    width: 40%;
+    margin-top: 50px;
+    cursor: pointer;
+    padding: 10px;
+    border: none;
+    color: #ffff;
+}
+.check-btn{
+    background-color: #01778a;
+
+}
+.close-card-btn{
+    background-color: #ee4253;
+}
+@media (max-width:678px){
+    .shopping-card{
+        width: 80%;
+    }
+}
